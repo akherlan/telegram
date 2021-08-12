@@ -6,13 +6,13 @@ Repositori ini menyimpan contoh Telegram Bot sederhana yang bisa dijalankan di l
 
 Dapat menjalankan fungsi:
 
--   `\start` untuk menampilkan pesan "hello"
+-   `/start` untuk menampilkan pesan "hello"
 
--   `\caps <pesan teks>` untuk mengubah pesan teks menjadi kapital
+-   `/caps <pesan teks>` untuk mengubah pesan teks menjadi kapital
 
 -   mengirim kembali pesan teks apapun yang dikirimkan melalui pesan privat
 
--   `\kill` (oleh admin) untuk menghentikan kerja bot dari aplikasi Telegram lewat pesan privat ke bot
+-   `/kill` (oleh admin) untuk menghentikan kerja bot dari aplikasi Telegram lewat pesan privat ke bot
 
 ## Lingkungan kerja
 
@@ -26,7 +26,7 @@ Dapat menjalankan fungsi:
 
 ## Pengaturan
 
-Kamu HARUS terlebih dahulu memiliki bot Telegram. Lakukan langkah-langkah di bawah sebelum menjalankan bot. Sunting melalui RStudio direkomendasi.
+Kamu HARUS terlebih dahulu memiliki bot Telegram. Lakukan langkah-langkah di bawah sebelum menjalankan bot. Sunting melalui RStudio direkomendasikan.
 
 1.  Buat bot Telegram menggunakan [\@BotFather](https://t.me/BotFather) dengan [panduan ini](https://core.telegram.org/bots#6-botfather) dan salin token yang muncul.
 2.  Jalankan perintah `file.edit(path.expand(file.path("~", ".Renviron")))` di R console.
